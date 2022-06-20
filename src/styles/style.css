@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+table {
+  table-layout: fixed;
+}
+
+tbody > tr {
+  -webkit-animation: 0.25s showing linear;
+          animation: 0.25s showing linear;
+}
+
+@-webkit-keyframes showing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes showing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.w-50px {
+  width: 50px;
+}
+
+.w-125px {
+  width: 125px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+table {
+  table-layout: fixed;
+}
+
+tbody > tr {
+  animation: 0.25s showing linear;
+}
+
+@keyframes showing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.w-50px {
+  width: 50px;
+}
+
+.w-125px {
+  width: 125px;
+}
